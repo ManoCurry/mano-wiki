@@ -1,0 +1,18 @@
+{
+  "name": "mano-wiki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roh Woohyeon <roh.woohyeon@gmail.com> (https://rohjs.github.io/portfolio)",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7",
+    "pug": "^2.0.0-rc.4"
+  }
+}
