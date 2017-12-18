@@ -1,0 +1,8 @@
+section.new
+  h1.title=title
+  form(method="post" action=`/wiki/${title}/edit`)
+    div.form-group
+      label(for="content")
+      textarea(id="content" name="content")
+    button(type="submit") Submit
+
