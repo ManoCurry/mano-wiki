@@ -1,9 +1,8 @@
 const connection = require('../lib/connection')
 
-const Post = connection.model('Post', {
+const Article = connection.model('Article', {
   content: String,
   title: String,
 })
 
-module.exports = Post
-
+module.exports = Article
