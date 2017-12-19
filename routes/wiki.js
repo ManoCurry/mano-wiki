@@ -1,9 +1,9 @@
 const express = require('express')
-
-const Article = require('../models/Article')
 const {
   Router
 } = express
+
+const Article = require('../models/Article')
 
 const router = Router()
 
